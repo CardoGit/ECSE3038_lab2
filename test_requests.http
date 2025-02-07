@@ -1,5 +1,15 @@
 ### Test GET Request
 GET http://127.0.0.1:8000/person
+Content-Type: application/json
+
+[
+    {
+        "name": "Beef Wellington",
+        "occupation": "Fry Cook",
+        "address": "124 Conch Street"
+    }
+]
+
 
 ### Test POST Request
 POST http://127.0.0.1:8000/person
